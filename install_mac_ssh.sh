@@ -22,3 +22,4 @@ if ! sudo systemsetup -getremotelogin | grep -q "On"; then
 fi
 
 echo "✅ SSH setup is complete! You can now connect."
+clear
